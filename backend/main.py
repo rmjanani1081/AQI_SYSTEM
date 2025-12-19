@@ -18,7 +18,7 @@ from backend.blockchain.audit_chain import create_audit_hash
 # ---------------------------------------------
 app = FastAPI(
     title="Air Quality Monitoring",
-    description="AI Driven Real Time Air Quality Monitoring and Predictive Mitigation using Multi Modal Sensor Data and Machine Learning Models",
+    description="AI Driven Real Time Air Quality Monitoring and Predictive Mitigation using Multi Modal Sensor Data and Machine Learning Models.",
     version="1.0.0"
 )
 
