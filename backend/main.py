@@ -6,7 +6,7 @@ from PIL import Image
 import torchvision.transforms as transforms
 
 # 🔹 Correct relative imports (VERY IMPORTANT)
-from backend.models.haze_cnn import HazeCNN
+from models.haze_cnn import HazeCNN
 from backend.models.aqi_lstm import AQILSTM
 from backend.models.aqi_transformer import AQITransformer
 from backend.services.weather import fetch_weather
